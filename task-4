@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    nav li ul{
+        display: inline-block;
+        margin-left: 100px;
+    }
+    .fr{
+        width: 1600px;
+        background-color: lightseagreen;
+    }
+    #sa{
+        display: inline-block;
+    }
+    #btn{
+        width: 150px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: yellow;
+    }
+    #to{
+        height: 30px;
+        width: 150px;
+        border-radius: 15px;
+        background-color:lightseagreen ;
+        color: white;
+    }
+    .d2{
+        padding-left: 150px;
+        margin-top:150px;;  
+    }
+
+    
+    #mk{
+        height: 50px;
+        background-color: yellow;
+        color: black;
+        width: 200px;
+        font-size:40px;
+        font-weight: bolder;
+    border: none;
+    }
+    #mi{
+        height: 50px;
+        background-color: yellow;
+        color: black;
+        width: 150px;
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-left: 35px;
+        border: none;
+    }
+    #bon{
+        height: 50px;
+        background-color: white;
+        color: black;
+        width: 100px;
+        font-size: 30px;
+        font-weight: bolder;
+        border: none;
+    }
+    .vp{
+        width: 250px;
+        height: 40px;
+        border-radius: 20px;
+        color: white;
+        background-color: lightseagreen;
+        cursor: pointer;
+        margin-left: 70px;
+    }
+    
+.bg-cover{
+    position:absolute;
+    opacity: 7000%;
+    width: 350px;
+    height: 500px;
+    z-index: -20px;
+margin-left: 1000px; 
+margin-top: 10px;   
+
+}
+    #lt{
+        margin-left: 800px;
+        height: 40px;
+        width: 250px;
+    }
+    #ic{
+        margin-left: 1200px;
+        width: 250px;
+        height: 45px;
+    }
+    
+</style>
+<body>
+ <div >
+    <div>
+        <nav>
+        <li>
+            <ul><i class="fa-thin fa-envelope"></i> GetResponse</ul>
+        <ul>product</ul>
+        <ul>princing</ul>
+        <ul>Resources></ul>
+        <ul><i class="fa-solid fa-magnifying-glass"></i></ul>
+        <ul >Log in </ul>
+        <ul><button id="to">Sign up free</button></ul>
+        </li>
+        </nav>
+    </div>
+<div class="fr">
+    <h3 style="color: white;" id="sa">Discover all new </h3><p></p><button style="width: 250px; background-color: yellow; color: black; height: 45px; font-size: x-large;"> AI Email Generator </button> <h3 id="sa" style="color: white; font-size: large;">Create better emails in less time with a ChatGPT.powered email and subject line generator <button id="btn">Learn more</button></h3>
+</div>
+<div>
+    <img src="download (4).jpg" class="bg-cover" height="50px">
+    <div class="d2">
+    <button id="mk">Marketing</button>
+    <button style="margin-left: 1000px; width: 250px; height: 45px; font-weight: bolder;"><i class="fa-thin fa-envelope"></i>  Email<br>  marketting</button>
+    <br><p></p><button id="bon">beyond</button>
+     <button id="mi">email</button>
+     <button id="ic"> <i class="fa-light fa-square-envelope"></i>website builder</button>
+    <h2> An affortable,easy platform to send emails,<br>grow your list ,and automate communicatin.</h2><p></p><p>
+    </p>
+    <button id="ic"> <i class="fa-solid fa-gear"></i>Marketing automation</button>
+    <h2 id="sa">Email address </h2><button id="sa" class="vp">CREATE FREE ACCOUNT</button>
+    <button id="ic"><i class="fa-solid fa-cart-shopping"></i>Ecommerce Marketing</button>
+    <P></P><H5>Try us for free,no credit card required,cancel anytimes</H5>
+</div>
+</div>
+ </div>
+ </body>
+</html>
